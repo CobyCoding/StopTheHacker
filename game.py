@@ -196,14 +196,13 @@ def quiz(WIN, game):
 
 def main(WIN):
     g = gameState()
-    match.main(g, WIN)
-    # while True:
-    #     games = ["quiz", "reaction", "match"]
-    #     random.shuffle(games)
-    #     for game in games:
-    #         if game == "quiz":
-    #             quiz(WIN, g)
-    #         elif game == "reaction":
-    #             reaction.main(g, WIN, g.map)
-    #         elif game == "match":
-    #             match.main(g, WIN)  
+    while True:
+        games = ["quiz", "reaction", "match"]
+        random.shuffle(games)
+        for game in games:
+            if game == "quiz":
+                quiz(WIN, g)
+            elif game == "reaction":
+                reaction.main(g, WIN, g.map)
+            elif game == "match":
+                match.main(g, WIN)  
