@@ -1,0 +1,10 @@
+What is used to type numbers and letters on a computer?, Keyboard, CD, Joystick, Speaker, a
+What is the brain of the Computer?, Mouse, Keyboard, CPU, Monitor, c
+What piece of equipment prints out documents from the computer?, Keyboard, Mouse, Printer, Monitor, c
+Which piece of the computer looks like a television?, Mouse, Printer, Joystick, Monitor, d
+What type of device is a scanner?, Input, Output, Automatic, Storage, a
+RAM stands for?, Read only memory, Random access memory, Read and memorize, Read access memory, b
+What device allow us to hear sound from the computer?, Keyboard, Joystick, Speaker, Mouse, c
+What does a computer use to record sound?, Speaker, Printer, Scanner, Microphone, d
+What type of device is RAM?, Storage, Input, Output, Automatic, a
+Which key allows you to access special functions?, Space bar, "a" key, Enter, CTRL, d
