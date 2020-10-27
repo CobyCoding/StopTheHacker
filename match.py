@@ -140,8 +140,15 @@ def main(game, WIN):
                             flipAllCards(cards)
                             selection = None
                             selected = None
+                            
         
-        if len(cards) == 0:
+        count = 0
+        for card in cards:
+            if not card.hidden:
+                count += 1
+        
+        if count == 0:
+            print("No cards")
             return None
 
         draw(WIN, game, cards)

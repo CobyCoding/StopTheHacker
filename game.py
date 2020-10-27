@@ -49,6 +49,9 @@ class Map:
         time.sleep(2)
         self.incorrectLocations.append(location)
     
+    def winningBox(self, location):
+        Tk().wm_withdraw() #to hide the main window
+        messagebox.showinfo(title="Super awesome hacker tracing device", message = 'Mission successfully completed. The hacker was in {}!'.format(location))
 
 
 class Quiz:
@@ -196,6 +199,7 @@ def quiz(WIN, game):
 
 def main(WIN):
     g = gameState()
+    # match.main(g, WIN)
     while True:
         games = ["quiz", "reaction", "match"]
         random.shuffle(games)

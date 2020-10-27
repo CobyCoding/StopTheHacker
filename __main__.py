@@ -1,10 +1,20 @@
 import os
 os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
-import pygame
+
+try:
+    import pygame
+except ImportError:
+    print("You dont have pygame installed. Please install pygame for this game to work")
+    print("You can install by running the following command:")
+    print("\n\npip install pygame")
 
 import how_to_play
 import os
 import sys
+
+print("*"*100)
+print("\nThis project is for the DVLA code challenge 2020. I hope you enjoy playing it.", 
+"\nOne thing, the matching game can be quite glitchy if you try to press things to quickly.")
 
 # Initialize
 pygame.init()

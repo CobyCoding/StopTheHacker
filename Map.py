@@ -31,6 +31,7 @@ def main(game, WIN, m):
                 for location in m.locations:
                     if detectIfInLocation(location, m, x, y):
                         if location == m.hackerLocation:
+                            m.winningBox(location)
                             final.winner(WIN)
                         else:
                             m.incorrectLocation(WIN, location)
