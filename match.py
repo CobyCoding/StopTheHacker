@@ -127,7 +127,7 @@ def main(game, WIN):
                         selected = None
                         selection[1].flip()
                         draw(WIN, game, cards)
-                    `   `    pair = isPair(selection)
+                        pair = isPair(selection)
 
                         if pair:
                             alertPair(selection)
